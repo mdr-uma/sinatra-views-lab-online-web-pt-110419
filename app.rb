@@ -12,4 +12,8 @@ class App < Sinatra::Base
     erb :goodbye
   end
 
+  get '/data' do
+    erb :data
+  end
+
 end
